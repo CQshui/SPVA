@@ -348,6 +348,6 @@ def test_focusing_accuracy(root_dir, test_csv, save_dir):
 
 
 if __name__ == "__main__":
-    test_focusing_accuracy(root_dir=r'F:\dongjiayao\Data\COCO\val\holograms',
-                           save_dir=r'F:\dongjiayao\Data\COCO\val\article\comparison\gog',
-                           test_csv=r'F:\dongjiayao\Data\COCO\val\holograms\AutoFocusDatabase.csv')
+    test_focusing_accuracy(root_dir=r'F:\dongjiayao\Data\COCO\val\holograms\holo',
+                           save_dir=r'F:\dongjiayao\Data\COCO\val\article\comparison\eigen',
+                           test_csv=r'F:\dongjiayao\Data\COCO\val\holograms\holo\AutoFocusDatabase.csv')
